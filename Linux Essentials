@@ -1,0 +1,42 @@
+
+Networking 
+- dns
+- dhcp
+- hostnames
+- tcp-ip
+- ip address ipv4 - ipv6
+- netmask
+- router gateway switch modem
+- ifconfig route /etc/resolv.conf
+- ping
+- traceroute
+- host dig nslookup 
+- netstat
+- firewall
+
+User accounts and groups
+
+- newgrp -> change current group
+- who
+- w
+- whoami
+- id
+- adduser
+- passwd -> change user passwd
+- passwd -S -> show account status
+- chage -l -> account status with better readabilty, modify account properties
+- usermod
+- groupmod
+- deluser --remove-home user
+- var/log/auth.log -> see deleted users securty logs
+- groupadd
+- usermod -a -G groupname usernama -> add user to group
+
+File ownership and permissions
+
+- chown
+- chgrp
+- stickybit -> chmod 1777 set stick as true chmod 0777 set as false
+- "file" rename as ".file" makes it invisible
+- ls -d show only directories
+
