@@ -1,5 +1,22 @@
+#Directories and Files
+
+- case sensitivity matters
+- file extension not needed in linux
+- only owner of file can grant access to other users
+- FHS distunguished between shareable and unshareable files, and between static and veriable files
+- hard link and symbolic link ln command
+- wildcards ?*[] case sensitivity is fuction of linux filesystem not the linux itself
+- directories dont support hardlinks but softlinks
+ 
+#Search data, archive
+
+- pipes
+- I/O redirection > >> 2>(error) &>(output and error) < << <>
+- wc(word count) command
+- basic and extented regex
 
 #Networking 
+
 - dns
 - dhcp
 - hostnames
@@ -39,21 +56,4 @@
 - stickybit -> chmod 1777 set stick as true chmod 0777 set as false
 - "file" rename as ".file" makes it invisible
 - ls -d show only directories
-
-#Directories and Files
-
-- case sensitivity matters
-- file extension not needed in linux
-- only owner of file can grant access to other users
-- FHS distunguished between shareable and unshareable files, and between static and veriable files
-- hard link and symbolic link ln command
-- wildcards ?*[] case sensitivity is fuction of linux filesystem not the linux itself
-- directories dont support hardlinks but softlinks 
-
-#Search data, archive
-
-- pipes
-- I/O redirection > >> 2>(error) &>(output and error) < << <>
-- wc(word count) command
-- basic and extented regex
 
