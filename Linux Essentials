@@ -15,10 +15,15 @@
 - wc(word count) command
 - basic and extented regex
 
+#Package Management
+
+- ps top free
+- kernel ring buffer
+
 #Networking 
 
 - dns
-- dhcp
+- dhcp -> a protocol that assigns ips automatically
 - hostnames
 - tcp-ip
 - ip address ipv4 - ipv6
@@ -53,7 +58,9 @@
 
 - chown
 - chgrp
+- umask
 - stickybit -> chmod 1777 set stick as true chmod 0777 set as false
 - "file" rename as ".file" makes it invisible
 - ls -d show only directories
-
+- suid
+- sgid
